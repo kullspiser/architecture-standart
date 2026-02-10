@@ -1,0 +1,40 @@
+@startuml
+title Архитектура интеграций it системы банка "Стандарт" — As Is
+
+!include <C4/C4_Component>
+
+Person(sales_offices_person, "Продажи offline", "Сотрудники/Продажники фронт-офиса")
+Person(deposits_person, "Обслуживание депозитов", "Сотрудники депозитного направления")
+Person(credits_person, "Обслуживание кредитов", "Сотрудники кредитного направления")
+Person(sales_callcenter_person, "Продажи через колл-центр", "Операторы колл-центра")
+Person(it_team, "IT департамент", "Архитекторы, DevOps, разработчики")
+Person(digital, "Команда цифровой трансформации Розничного бизнеса", "Product Owners', аналитики, разработчики")
+
+System(ibank, "Интернет-банк", "ASP.NET MVC/MS SQL")
+System(site, "Сайт", "PHP/React")
+System(abs, "АБС", "Delphi/Oracle")
+
+System(callcenter, "Система колл-центра", "React/Spring Boot/PostgreSQL")
+System(sms_gateway, "СМС-шлюз телеком-оператора", )
+
+System_Ext(sms, "Телеком оператор (СМС)", "Внешний провайдер СМС")
+System_Ext(partner_cc, "Система партнерского колл-центра", "Внешняя система партнёра")
+
+Rel(sales_offices_person, ibank, "Работает в ИБ", "Web")
+Rel(deposits_person, abs, "Оформляет депозиты", "Delphi-клиент / API")
+Rel(credits_person, abs, "Оформляет кредиты", "Delphi-клиент / API")
+Rel(sales_offices_person, abs, "Оформляет заявки", "Delphi-клиент / API")
+Rel(sales_offices_person, deposits_person, "Согласование спец ставок")
+Rel(deposits_person, credits_person, "Согласование спец ставок")
+Rel(sales_callcenter_person, callcenter, "Работает в системе call-центра", "Web")
+Rel(it_team, ibank, "Разрабатывает и поддерживает")
+Rel(it_team, site, "Разрабатывает и поддерживает")
+Rel(it_team, abs, "Поддерживает интеграции")
+Rel(it_team, callcenter, "Разрабатывает и поддерживает")
+
+Rel(it_team, sms_gateway, "Поддержка СМС шлюза", "SMPP / REST")
+Rel(abs, sms_gateway, "Отправляет СМС", "SMPP / REST")
+Rel(sms_gateway, sms, "Отправляет СМС", "SMPP / REST")
+Rel(callcenter, partner_cc, "Передаёт лиды / звонки", "REST API")
+
+@enduml

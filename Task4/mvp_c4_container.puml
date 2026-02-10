@@ -1,0 +1,20 @@
+@startuml
+!include <C4/C4_Component>
+title Передача ставок в кол-центр — контейнерная диаграмма
+
+Person(client, "Клиент банка", "Обращается в кол-центр для уточнения ставок по депозитам")
+Person(callCenterStaff, "Сотрудник кол-центра", "Консультирует клиентов по актуальным депозитным ставкам")
+
+System_Boundary(bankSystem, "Банк") {
+    Container(backOfficeDeposit, "Бэк-офис депозитов", "Сервис обработки ставок", "Управляет персональными и общими ставками")
+    Container(callCenterSystem, "Система кол-центра", "Внутренний сервис", "Доступ к актуальным ставкам для сотрудников кол-центра")
+}
+
+System_Ext(partnerCallCenter, "Партнёрский кол-центр", "Консультирует клиентов банка по ставкам через CSV/XLS")
+
+Rel(callCenterStaff, callCenterSystem, "Просмотр актуальных ставок для консультаций", "REST / защищённый канал")
+Rel(callCenterSystem, backOfficeDeposit, "Получение актуальных ставок", "REST / внутренний API")
+Rel(backOfficeDeposit, partnerCallCenter, "Передача актуальных ставок в виде файлов", "CSV/XLS через защищённый канал")
+Rel(client, callCenterStaff, "Звонит для уточнения ставок")
+
+@enduml

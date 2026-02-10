@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Страница — 1" id="9eMo9T3FimmUKxO8EGV8">
+    <mxGraphModel dx="5604" dy="2395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-66" parent="1" style="shape=rect;fillColor=#d0cee2;strokeColor=#56517e;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="176.8" width="1620" x="-2510" y="-721" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-67" parent="1" style="shape=rect;fillColor=#d0cee2;strokeColor=#56517e;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="196.8" width="1610" x="-2510" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-69" parent="1" style="shape=rect;fillColor=#d0cee2;strokeColor=#56517e;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="196.8" width="1610" x="-2500" y="-926.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="&lt;div&gt;IT Департамент&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="196.8" width="150" x="-2660" y="-926.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="Система партнёрского колл-центра" vertex="1">
+          <mxGeometry height="190" width="150" x="-2660" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-73" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q2" vertex="1">
+          <mxGeometry height="74.4" width="990" x="-2530" y="-1010" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-74" parent="1" style="shape=rect;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;fontColor=#ffffff;" value="Т1 Разработка АПИ Получения актуальных и персональных ставок" vertex="1">
+          <mxGeometry height="60" width="370" x="-2490" y="-900" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-75" parent="1" style="shape=rect;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;fontColor=#ffffff;" value="Т2 Разработка и настройка планировщика обновления&amp;nbsp; ставок и передаче партнерам" vertex="1">
+          <mxGeometry height="70" width="410" x="-2110" y="-900" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-76" parent="1" style="shape=rect;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;fontColor=#ffffff;" value="Т3 Проверка Актуальности ставок публичной выкладке" vertex="1">
+          <mxGeometry height="120" width="120" x="-1690" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-77" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" value="Q3" vertex="1">
+          <mxGeometry height="74.4" width="660" x="-1550" y="-1010" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="Система колл-центра" vertex="1">
+          <mxGeometry height="194.8" width="150" x="-2660" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-80" edge="1" parent="1" source="ZBKcxDdMgpWjTeRcXxG9-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZBKcxDdMgpWjTeRcXxG9-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-81" parent="1" style="shape=rect;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;fontColor=#ffffff;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Т4 Подключение к API для получение актуальных ставок" vertex="1">
+          <mxGeometry height="270" width="120" x="-1550" y="-640" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" value="&lt;span style=&quot;box-sizing: inherit; font-family: &amp;quot;YS Text&amp;quot;, sans-serif; text-align: start; white-space-collapse: preserve-breaks;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(214, 214, 214), rgb(255, 255, 255));&quot;&gt;Команда цифровой трансформации розничного бизнеса&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="150" x="-2660" y="-329.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-83" parent="1" style="shape=rect;fillColor=#d0cee2;strokeColor=#56517e;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" value="" vertex="1">
+          <mxGeometry height="196.8" width="1610" x="-2510" y="-333.2" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBKcxDdMgpWjTeRcXxG9-84" parent="1" style="shape=rect;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacing=5;rounded=0;fontColor=#ffffff;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Т5 Обучение операторов по новым данным" vertex="1">
+          <mxGeometry height="210" width="120" x="-1410" y="-420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
